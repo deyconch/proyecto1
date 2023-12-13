@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  src: url();
+  font-weight: 700;
+}
+@font-face {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  src: url();
+  font-weight:500;
+}
+@font-face {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  src: url();
+  font-weight: 400;
+}
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #43ece4;
+  color: #495057;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+}
+
+h2 {
+  color: #343a40;
+  margin-top: 20px;
+}
+
+/* NavBar.css */
+
+.navbar-container {
+  background-color: #007bff;
+  color: rgb(101, 37, 157);
+  padding: 10px;
+  text-align: center; /* Centrar el contenido del navbar */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Centrar los elementos del menú */
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(237, 79, 221);
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ecf0f1;
+}
+
+hr {
+  margin-top: 10px;
+  border: 0;
+  border-top: 1px solid #bdc3c7;
+}
+
+/* Pag1.css */
+
+.page-content {
+  padding: 20px;
+  background-color: #b61414;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}

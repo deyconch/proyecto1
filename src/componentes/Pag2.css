@@ -1,0 +1,151 @@
+.s1-textos h1{
+    padding: 2rem;
+    text-align: center;
+
+}
+.fondo2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(242, 240, 248);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor1{
+    width: 100%;
+    height: calc(100vh -20em);
+    display: flex;
+    padding: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s1-textos{
+    background-color: rgb(38, 232, 226);
+    width: 80%;
+    height: 80%;
+}
+.s1-extra{
+    background-color: rgb(120, 233, 230);
+    width: 80%;
+    height: 80%;
+}
+.titulo{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+
+}
+
+.s2-img{
+    background-color: aquamarine;
+    width: 80%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+.s2-contenido{
+    width: 33.33%;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em;
+}
+.contenido-img{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+.contenido-img img{
+    object-fit: cover;
+    width: 100%;
+}
+.contenido-texto{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em 0;
+}
+.contenido-texto h2{
+    font-size: 1.25em;
+    color: aliceblue;
+
+}
+.contenido-texto p{
+    font-size: 1.25em;
+    color: antiquewhite;
+    margin: 0.5em 0;
+    text-align: center;
+    
+}
+.contenedor3{
+    width: 100%;
+    height: 10em;
+    background: #2d2f32;
+}
+.contenedor3 hr{
+    background:linear-gradient(90deg,#378ace,rgb(14, 207, 175));
+    width: 100%;
+    height: 5%;
+    border: none;
+}
+.s3-contenido{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.s3-logo{
+    width: 50% ;
+}
+.s3-texto{
+    width: 30%;
+}
+.s3-texto h3{
+   font-size: 1em;
+   color: azure;
+   margin: 0.20em 0;
+}
+.s3-texto p{
+    font-size: 0.9em;
+    color: azure;
+}
+.s3-texto a{
+    text-decoration: none;
+    font-size: 0.9em;
+   color: azure;
+}
+.footer{
+    width: 100%;
+    height: 30%;
+    border-top: #377dce solid 0.0725em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: aliceblue;
+    padding: 0 10%;
+}
+.s3-logo img{
+    object-fit: cover;
+    height: 100px;
+}
+.autor{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0.25em;
+}
+.politicas{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 5em;
+}
